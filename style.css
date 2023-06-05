@@ -1,0 +1,163 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	background: #1F2937;
+	font-size: 18px;
+	color: #F9FAF8;
+	padding: 30px 150px 0 150px;
+}
+
+ul {
+	display: flex;
+	border: 2px solid rgba(211, 211, 211, 0.397);
+	gap: 40px;
+	padding: 10px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #F9FAF8;
+}
+
+.container {
+	display: flex;
+	background: #1F2937;
+	font-size: 48px;
+	font-weight: bolder;
+	color: #F9FAF8;
+	padding: 20px 150px 120px 150px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-right: 10px;
+}
+
+.wrapper h1 {
+	padding-right: 20px;
+}
+
+.wrapper p {
+	font-size: 24px;
+	margin-right: 100px;
+	font-weight: 100;
+	padding-bottom: 20px;
+}
+
+.container img {
+	display: block;
+	max-width: 500px;
+	max-height: 375px;
+	height: auto;
+	width: auto;
+}
+
+.information {
+	display: flex;
+	flex-direction: column;
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1F2937;
+	align-items: center;
+	background-color: #F9FAF8;
+	padding: 10px 200px;
+}
+
+.cards {
+	display: flex;
+	font-size: 20px;
+	text-align: center;
+	gap: 60px;
+	flex-wrap: wrap;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	min-height: 200px;
+}
+
+button {
+	background: #3882F6;
+	color: #F9FAF8;
+	font-size: 30px;
+	font-weight: bold;
+	width: 220px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 0 470px;
+	background-color: #E5E7EB;
+	font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.quote p {
+	text-align: justify;
+	margin-bottom: 0;
+}
+
+.quote h5 {
+	margin-top: 0;
+	text-align: right;
+}
+
+.signup {
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: initial;
+	background: #3882F6;
+	color: #F9FAF8;
+	padding: 20px 150px;
+	margin: 100px 200px;
+}
+
+.call {
+	display: flex;
+	flex-direction: column;
+	font-size: 24px;
+	padding: 50px 0;
+}
+
+.signup button {
+	border: 2px solid white;
+}
+
+.call  h3 {
+	margin: 0;
+}
+
+.call  p {
+	margin: 0;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+	background: #1F2937;
+	font-size: 24px;
+	color: #E5E7EB;
+}
