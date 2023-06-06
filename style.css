@@ -80,14 +80,14 @@ a {
 	display: flex;
 	font-size: 20px;
 	text-align: center;
-	gap: 60px;
+	gap: 40px;
 	flex-wrap: wrap;
 }
 
 .card {
 	display: flex;
 	flex-direction: column;
-	width: 250px;
+	width: 240px;
 	min-height: 200px;
 }
 
